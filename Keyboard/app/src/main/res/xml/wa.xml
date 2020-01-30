@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="13.3333%p"
+    android:horizontalGap="2dp"
+    android:verticalGap="2px">
+
+
+    <Row>
+
+        <Key android:keyLabel="A" android:codes="12431" android:keyWidth="40%p" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="A" android:codes="12431" android:keyWidth="40%p" />
+        <Key android:keyLabel="カタ"  android:keyEdgeFlags="right" android:codes="10020" android:keyWidth="20%p" />
+    </Row>
+    <Row>
+
+        <Key android:keyLabel="O" android:codes="12434" android:keyWidth="40%p" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="O" android:codes="12434" android:keyWidth="40%p" />
+        <Key android:keyLabel="カナ"  android:keyEdgeFlags="right" android:codes="10020" android:keyWidth="20%p" />
+    </Row>
+
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="N" android:codes="12435" android:keyWidth="40%p" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="N" android:codes="12435" android:keyWidth="40%p" />
+        <Key android:keyLabel="X"  android:keyEdgeFlags="right" android:codes="12430" android:keyWidth="20%p" />
+    </Row>
+</Keyboard>

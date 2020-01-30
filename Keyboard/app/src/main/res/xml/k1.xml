@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:keyWidth="10%p"
+    android:keyHeight="20%p"
+    android:horizontalGap="1px"
+    android:verticalGap="1px">
+   >
+
+
+
+
+
+
+
+    <Row>
+        <Key android:keyLabel="A" android:codes="12437" android:keyWidth="50%p" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="A" android:codes="12437" android:keyWidth="50%p" android:keyEdgeFlags="right" />
+
+    </Row>
+    <Row>
+        <Key android:keyLabel="E" android:codes="12438" android:keyWidth="50%p" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="E" android:codes="12438" android:keyWidth="50%p" android:keyEdgeFlags="right" />
+
+    </Row>
+</Keyboard>

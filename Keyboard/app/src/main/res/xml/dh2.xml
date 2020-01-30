@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="8%p"
+    android:horizontalGap="1px"
+    android:verticalGap="1px">
+
+
+    <Row>
+        <Key android:keyLabel="A" android:codes="12496" android:keyEdgeFlags="left" android:keyWidth="40%p" />
+        <Key android:keyLabel="A" android:codes="12496" android:keyWidth="40%p" />
+        <Key android:keyLabel=""  android:keyEdgeFlags="right" android:codes="30017" android:keyWidth="20%p" />
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="I" android:codes="12499" android:keyEdgeFlags="left" android:keyWidth="40%p" />
+        <Key android:keyLabel="I" android:codes="12499" android:keyWidth="40%p" />
+        <Key android:keyLabel=""  android:keyEdgeFlags="right" android:codes="30017" android:keyWidth="20%p" />
+    </Row>
+
+    <Row>
+
+        <Key android:keyLabel="U" android:codes="12502"  android:keyEdgeFlags="left" android:keyWidth="40%p" />
+        <Key android:keyLabel="U" android:codes="12502" android:keyWidth="40%p" />
+        <Key android:keyLabel="Y"  android:keyEdgeFlags="right" android:codes="30017" android:keyWidth="20%p" />
+    </Row>
+
+
+
+    <Row>
+        <Key android:keyLabel="E" android:codes="12505" android:keyEdgeFlags="left" android:keyWidth="40%p" />
+        <Key android:keyLabel="E" android:codes="12505" android:keyWidth="40%p" />
+        <Key android:keyLabel=""  android:keyEdgeFlags="right" android:codes="30017" android:keyWidth="20%p" />
+    </Row>
+
+    <Row>
+
+        <Key android:keyLabel="O" android:codes="12508" android:keyEdgeFlags="left" android:keyWidth="40%p" />
+        <Key android:keyLabel="O" android:codes="12508" android:keyWidth="40%p" />
+        <Key android:keyLabel=""  android:keyEdgeFlags="right" android:codes="30017" android:keyWidth="20%p" />
+    </Row>
+</Keyboard>

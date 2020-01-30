@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="26%p"
+    android:keyHeight="8%p"
+    android:horizontalGap="1px"
+    android:verticalGap="1px">
+
+    <Row>
+        <Key android:keyLabel="A" android:codes="10001" android:keyEdgeFlags="left"  />
+        <Key android:keyLabel="K"  android:codes="10002" android:keyWidth="38%p"/>
+        <Key android:keyLabel="Aa"  android:codes="10080" android:keyWidth="18%p"/>
+        <Key android:keyIcon="@drawable/left_arrow"  android:codes="-5" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="18%p"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="S" android:codes="10003" android:keyEdgeFlags="left"  />
+        <Key android:keyLabel="T"  android:codes="10004" android:keyWidth="38%p"/>
+        <Key android:keyIcon="@drawable/ikal"  android:codes="21" android:isRepeatable="true" android:keyWidth="18%p"/>
+        <Key android:keyIcon="@drawable/ikar"  android:codes="22" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="18%p"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="N" android:codes="10005" android:keyEdgeFlags="left" />
+        <Key android:keyLabel="H"  android:codes="10006" android:keyWidth="38%p"/>
+        <Key android:keyLabel="ーっッ"  android:codes="12540,12387,12483" android:keyWidth="18%p"/>
+        <Key android:keyIcon="@drawable/ic_space"  android:codes="65440" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="18%p"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="M" android:codes="10007" android:keyEdgeFlags="left" />
+        <Key android:keyLabel="Y"  android:codes="10008" android:keyWidth="38%p"/>
+        <Key android:keyLabel="、。?"  android:codes="65380,65377,65311" android:keyWidth="18%p"/>
+        <Key android:keyLabel="123!@#"  android:codes="10070" android:keyEdgeFlags="right" android:keyWidth="18%p"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="R" android:keyEdgeFlags="left" android:codes="10009"/>
+        <Key android:keyLabel="W"  android:codes="10010" android:keyWidth="38%p"/>
+        <Key android:keyLabel="変換"  android:codes="9999" android:keyWidth="18%p"/>
+        <Key android:keyIcon="@drawable/ic_search"  android:codes="-4" android:keyEdgeFlags="right" android:keyWidth="18%p"/>
+    </Row>
+</Keyboard>
